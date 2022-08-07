@@ -1,38 +1,183 @@
-.App {
-  text-align: center;
+
+.app{
+    /* background-color: black; */
+    background-color: #525F82
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.line-through{
+    font-family:'Girassol', cursive;
+    font-weight: normal;
+    color: #046582;
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.line-through-register{
+    font-family:'Girassol', cursive;
+    font-weight: bolder;
+    color: #046582;
+    font-size: 22px;
+    /* width: 30%;   
+    text-align: center;   
+    border-bottom: 3px solid white;   
+    line-height: 0.1em;   
+    margin: 10px 0 20px; */
+}
+
+
+
+.register{
+    background-image: url(https://vaksinasi.rskariadi.id/assets/theme/img/backgrounds/1@2x.jpg);
+    background-size: cover;
+}
+
+.google{
+    width: 4rem;
+    height: 1.5rem;
+    margin-left: 1rem;
+    padding-top: 2px;
+}
+
+.dashboard-header{
+    font-family:'Girassol', cursive;
+    font-weight: bolder;
+    color: #046582;
+    font-size: 36px;
+    text-align: center;
+    
+    /* width: 24rem; */
+}
+
+
+.dashboard-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #16232E;
+
+}
+
+.card{
+    cursor: pointer;
+
+}
+ .card:hover{
+    transition: transform .4s;
+    transform: scale(1.1);
+ }
+
+
+
+.details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.details-header{
+    font-family:'Girassol', cursive;
+    font-weight: bolder;
+    color: #046582;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 600px;
+
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #16232E;
+    color: antiquewhite;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1200px;
+    width: 1000px;
+    margin-top: 6rem;
+
+}
+
+.about-container h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about-container p{
+    text-align: center;
+}
+
+/* .profile-pic{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+} */
+
+.links{
+
+    display: flex;
+    
+
+    
+}
+
+.links a{
+    margin: 1rem;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bolder;
+
+    background-color: white;
+    height: 4rem;
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+
+.links img{
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+}
+
+/* .btn-linkedin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+@media only screen and (max-width: 950px) {
+    .about-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 1600px;
+        
+    }
+
+    .links{
+
+        display: flex;
+        flex-direction: column;
+        
+    }
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
