@@ -39,7 +39,7 @@ export const signIn = async (email, password, navigate) => {
       email,
       password
     );
-    
+    console.log(userCredential);
     toastSuccessNotify("Registered successfully!");
     
   } catch (error) {
@@ -58,6 +58,7 @@ export const logIn = async (email, password, navigate) => {
       email,
       password
     );
+    console.log(userCredential);
     navigate("/");
     toastSuccessNotify("Logged in successfully!");
   } catch (error) {

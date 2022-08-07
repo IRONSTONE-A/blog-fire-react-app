@@ -11,7 +11,7 @@ import { BlogContext } from "../contexts/BlogContext";
 import { Box } from "@mui/system";
 import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
-import { useState } from "react";
+// import { useState } from "react";
 
 export default function BlogCard() {
   const { cardInfo } = useContext(BlogContext);
